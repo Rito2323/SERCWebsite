@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		<link rel="stylesheet" href="./style.css">
+		<title>Project 3</title>
+	</head>
+	<body > 
+		<div class="hero" >
+			<div class="navbar">
+				<div class="nav-logo animate__animated animate__fadeInLeft">
+					<h1>SERC</h1>
+				</div>
+				<div class="nav-links" id="navlinks">
+					<i class='bx bx-x' onclick="closeMenu()"></i>
+					<ul class="animate__animated animate__fadeInDown">
+						<li id="l1"><a href="#">HOME</a></li>
+						<li id="l2"><a href="ABOUT.html" >ABOUT</a></li>
+						<li>
+							<!-- <a href="">PEOPLE</a> -->
+							<div class="dropdown">
+								<button class="dropbtn">PEOPLE</button>
+								<div class="dropdown-content">
+								  <a href="faculty.html">FACULTY</a>
+								
+								</div>
+							  </div>
+						</li>
+						<li>
+							<a href="publications.html">PUBLICATIONS</a>
+						</li>
+						<li>
+							<a href="focus_area.html">FOCUS</a>
+						</li>
+						<li>
+							<a href="news.html">EVENTS</a>
+						</li>
+						<li>
+							<a href="">CONTACT</a>
+						</li>
+					</ul>
+					
+				</div>
+				<i class='bx bx-menu' onclick="showMenu()"></i>
+			</div>
+
+			<div class="intro" >
+				<div class="text ">
+					<h1 class="animate__animated animate__zoomInUp">Software Engineering Research Center
+						<!-- <br> -->
+						<!-- <span>numérique</span> -->
+					</h1>
+					<h2 class="animate__animated animate__fadeIn">IIIT HYDERABAD</h2>
+				</div>
+
+				<div class="group_buttons">
+					
+					<div class="icons animate__animated animate__fadeIn">
+						<div class="icone1">
+							<i class='bx bxl-facebook-circle'></i>
+						</div>
+						<div class="icone2">
+							<i class='bx bxl-linkedin-square'></i>
+						</div>
+						<div class="icone3">
+							<i class='bx bxl-youtube'></i>
+						</div>
+						<div class="icone4">
+							<i class='bx bxs-phone'></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="area2" id="area_2" hidden="true">
+			<section class="about-area" id="about_body" >
+					<div>          
+						<img src="https://st.depositphotos.com/1056393/5086/i/600/depositphotos_50868241-stock-photo-speaker-at-business-convention-and.jpg"
+						alt="Graduate" class="one" style="height:600px" />
+					</div>
+					<div class="text-part">
+						<h1>ABOUT</h1>
+						<h2>SERC</h2>
+						<p>
+							Software Engineering Research Center(SERC) has a eminent faculty with vast teaching and research experience in and outside India
+						</p>
+		
+						<P>
+							Some of the key focus areas:
+							
+							</P>
+						 <P>
+							1) Empirical Research and Process Improvement
+							2) Formal Methods in Software Engineering
+							3) Requirements Engineering and Quality Attributes
+							4) Complex System Development
+							5) Cloud Computing
+							6) Education Technologies
+							7) Usability Engineering
+	
+							<P>
+					</div>
+			</section>
+		
+			
+		</div>
+
+	
+		
+		<script src="/main.js"></script>
+	</body>
+</html>
