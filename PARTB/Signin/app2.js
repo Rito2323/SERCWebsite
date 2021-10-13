@@ -3,11 +3,11 @@ function myFunction1() {
     var x= document.getElementById("u1").value;
  var y = document.getElementById("p1").value;
  if (x== null ||x== "") {
-        alert("Please enter the username.");
+        alert("Please enter the admin email-id.");
          return false;
                }
    if (y== null ||y== "") {
-          alert("Please enter the password.");
+          alert("Please enter the admin password.");
            return false;
                  }
 
